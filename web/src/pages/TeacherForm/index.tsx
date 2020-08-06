@@ -1,5 +1,7 @@
 import React, { useState, FormEvent } from 'react'
 
+import { useHistory } from 'react-router-dom'
+
 import PageHeader from '../../components/PageHeader'
 import Input from '../../components/Input'
 import Textarea from '../../components/Textarea'
@@ -12,6 +14,8 @@ import api from '../../services/api'
 import './styles.css'
 
 function TeacherForm() {
+    const history = useHistory()
+    
     const [name, setName] = useState('')
     const [avatar, setAvatar] = useState('')
     const [whatsapp, setWhatsapp] = useState('')
@@ -57,6 +61,8 @@ function TeacherForm() {
             schedule: scheduleItems
         }).then(() => {
             alert('Cadastro realizado com sucesso!')
+
+            history.push('/')
         }).catch(() => {
             alert('Erro no cadastro!')
         })
@@ -78,25 +84,25 @@ function TeacherForm() {
                             name="name"
                             label="Nome completo"
                             value={name}
-                            onChange={(e) => { setName(e.target.value) }}
+                            onChange={e => { setName(e.target.value) }}
                         />
                         <Input
                             name="avatar"
                             label="Avatar"
                             value={avatar}
-                            onChange={(e) => { setAvatar(e.target.value) }}
+                            onChange={e => { setAvatar(e.target.value) }}
                         />
                         <Input
                             name="whatsapp"
                             label="WhatsApp"
                             value={whatsapp}
-                            onChange={(e) => { setWhatsapp(e.target.value) }}
+                            onChange={e => { setWhatsapp(e.target.value) }}
                         />
                         <Textarea
                             name="bio"
                             label="Biografia"
                             value={bio}
-                            onChange={(e) => { setBio(e.target.value) }}
+                            onChange={e => { setBio(e.target.value) }}
                         />
                     </fieldset>
 
@@ -107,7 +113,7 @@ function TeacherForm() {
                             name="subject"
                             label="Matéria"
                             value={subject}
-                            onChange={(e) => { setSubject(e.target.value) }}
+                            onChange={e => { setSubject(e.target.value) }}
                             options={[
                                 { value: 'Artes', label: 'Artes' },
                                 { value: 'Biologia', label: 'Biologia' },
@@ -124,7 +130,7 @@ function TeacherForm() {
                             name="cost"
                             label="Custo da sua hora por aula"
                             value={cost}
-                            onChange={(e) => { setCost(e.target.value) }}
+                            onChange={e => { setCost(e.target.value) }}
                         />
                     </fieldset>
 
