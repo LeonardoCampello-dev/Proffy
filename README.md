@@ -24,6 +24,7 @@
 ### Web Screenshot 💻
 
 ![index](.github/Index.png)
+![video](./.github/webVideo.gif)
 
 ### Mobile Screenshot 📱
 
