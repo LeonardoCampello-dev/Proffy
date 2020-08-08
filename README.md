@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./.github/logo.svg">
+    <img src="./.github/rocket.svg">
 </h1>
 
 ![GitHub-Repo-Size](https://img.shields.io/github/repo-size/LeonardoCampello-dev/Proffy?color=blueviolet)
