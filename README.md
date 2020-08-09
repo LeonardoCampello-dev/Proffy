@@ -2,9 +2,10 @@
     <img src="./.github/rocket.svg">
 </h1>
 
+![Author](https://img.shields.io/badge/Author-Leonardo%20Campello-blueviolet)
 ![GitHub-Repo-Size](https://img.shields.io/github/repo-size/LeonardoCampello-dev/Proffy?color=blueviolet)
-![License](https://img.shields.io/github/license/LeonardoCampello-dev/Proffy?color=blueviolet)
 ![Last commit](https://img.shields.io/github/last-commit/LeonardoCampello-dev/Proffy?color=blueviolet)
+![License](https://img.shields.io/github/license/LeonardoCampello-dev/Proffy?color=blueviolet)
 
 > [@Rocketseat](https://rocketseat.com.br/)
 
@@ -30,9 +31,7 @@
 
 ![grade](.github/Mobile/Grade.png)
 
-Video 📹
-
-![video](./.github/Mobile/Video.gif)
+![proffys](./Mobile/../.github/Mobile/Proffys.png)
 
 ## 👨‍💻 Technologies
 
@@ -97,4 +96,6 @@ yarn start
 Released in 2020. This project is under the [MIT license](./LICENSE).
 
 ## Made with love by [Leonardo Campello](https://www.linkedin.com/in/leonardo-campello-6151a71a5/) 
+
+
 
