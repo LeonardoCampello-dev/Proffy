@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img src="./.github/rocket.svg">
+    <img src="./.github/rocket.svg" width="100">
 </h1>
 
 ![Author](https://img.shields.io/badge/Author-Leonardo%20Campello-blueviolet)
@@ -24,14 +24,32 @@
 
 ### Web Screenshot 💻
 
-![index](.github/Index.png)
-![video](./.github/webVideo.gif)
+**Home** 🏡
+
+![home](.github/home.png)
+
+---
+
+**Give classes** 📝
+
+![create](.github/form.png)
+
+---
+
+**Filter** 🗃 
+
+![filter](.github/teachers.png)
+
+---
 
 ### Mobile Screenshot 📱
 
-![grade](.github/Mobile/Grade.png)
+<img src=".github/Mobile/Grade.png" width="600">
 
-![proffys](./Mobile/../.github/Mobile/Proffys.png)
+---
+
+<img src=".github/Mobile/Proffys.png" width="600">
+
 
 ## 👨‍💻 Technologies
 
@@ -95,7 +113,7 @@ yarn start
 
 Released in 2020. This project is under the [MIT license](./LICENSE).
 
-## Made with love by [Leonardo Campello](https://www.linkedin.com/in/leonardo-campello-6151a71a5/) 
+## Made with love by [Leonardo Campello](https://www.linkedin.com/in/leonardo-campello-6151a71a5/) 💜
 
 
 
