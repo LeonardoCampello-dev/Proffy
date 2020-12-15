@@ -42,7 +42,7 @@
 
 ### 📌 Resources
 
-🤝🏻 Application to connect teachers and students.
+- 🤝🏻 Application to connect teachers and students.
 
 ## 🚀 Technology 
 
