@@ -65,7 +65,7 @@
     <img src=".github/Mobile/Grade.png" width="600">
 </h1>
 
-> To see more screenshots or videos, click [HERE.](./LICENSE)
+> To see more screenshots or videos, click [HERE.](./images.md)
 
 ## ☕ Prerequisites
 
